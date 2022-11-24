@@ -16,6 +16,7 @@ int main(void)
 			 delay_ms(25);
 		 }
 		 while((IO1PIN & bit(16))==0);
+		 delay_ms(50);
 		}
 	}
 	return 0;
